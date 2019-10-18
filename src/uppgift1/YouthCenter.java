@@ -8,7 +8,6 @@ public class YouthCenter {
     private String boss;
     private String userName;
     private String passWord;
-    private int phoneNumber;
 
     public YouthCenter() {
 
@@ -20,7 +19,6 @@ public class YouthCenter {
         this.boss = boss;
         this.userName = userName;
         this.passWord = passWord;
-        this.phoneNumber = phoneNumber;
     }
 
     public void setName(String name) {
@@ -43,10 +41,6 @@ public class YouthCenter {
         this.passWord = passWord;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
     public String getName() {
         return name;
     }
@@ -65,10 +59,6 @@ public class YouthCenter {
 
     public String getPassWord() {
         return passWord;
-    }
-
-    public int getPhoneNumber() {
-        return phoneNumber;
     }
 
 

@@ -2,24 +2,36 @@ package uppgift1;
 
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class AddYouthCenter {
 
 public static void addYouthCenter(){
     YouthCenter yc = new YouthCenter();
 
-    //Sedan få in alla arrayerna i listan som index
-    ArrayList<YouthCenter> youthCenters = new ArrayList<YouthCenter>();
-
-    //Få in alla dessa som index i en array
     String name = JOptionPane.showInputDialog("Enter name");
      yc.setName(name);
-    System.out.println(yc.getName());
 
     String address = JOptionPane.showInputDialog("Enter address");
     yc.setAddress(address);
-    System.out.println(yc.getAddress());
 
+    String boss = JOptionPane.showInputDialog("Enter boss");
+    yc.setBoss(boss);
+
+    String userName = JOptionPane.showInputDialog("Enter Username");
+    yc.setUserName(userName);
+
+    String passWord = JOptionPane.showInputDialog("Enter password");
+    yc.setPassWord(passWord);
+
+    //Få in alla dessa som index i en array
+    String[] youthCenter = {name, address, boss, userName, passWord };
+
+    JOptionPane.showMessageDialog(null,"You have created a new Youthcenter with \n Name: " +name+ "\n Address: "+address+"\n Boss: "+boss+"\n Username: "+userName+"\n Password: " +passWord);
+    System.out.println(Arrays.toString(youthCenter));
+
+    //spara sedan den gjorda arrayen i en arraylist för att inte skriva över den nästa gång
+    //KVAR ATT GÖRA
 }
 
 

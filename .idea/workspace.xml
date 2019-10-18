@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe2a21e-4279-4121-8e0a-f5c354ce277a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <updated>1569410930753</updated>
       <workItem from="1569410934514" duration="1237000" />
       <workItem from="1569826646700" duration="25000" />
-      <workItem from="1571403040809" duration="7058000" />
+      <workItem from="1571403040809" duration="9507000" />
     </task>
     <servers />
   </component>
@@ -91,5 +90,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaUppgift1$Main.ic" NAME="Main Coverage Results" MODIFIED="1571412435524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uppgift1.*</FILTER>
+    </SUITE>
   </component>
 </project>
