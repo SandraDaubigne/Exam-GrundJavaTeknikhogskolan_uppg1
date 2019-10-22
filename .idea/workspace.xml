@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1fe2a21e-4279-4121-8e0a-f5c354ce277a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/AddYouthCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/AddYouthCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/YouthCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/YouthCenter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Javaprogram från Läraren/Filhantering_kod/csv_filer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +77,10 @@
       <updated>1569410930753</updated>
       <workItem from="1569410934514" duration="1237000" />
       <workItem from="1569826646700" duration="25000" />
-      <workItem from="1571403040809" duration="9507000" />
+      <workItem from="1571403040809" duration="11522000" />
+      <workItem from="1571464755786" duration="1233000" />
+      <workItem from="1571639528462" duration="4864000" />
+      <workItem from="1571732309772" duration="2096000" />
     </task>
     <servers />
   </component>
@@ -85,7 +92,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

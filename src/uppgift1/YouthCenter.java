@@ -5,7 +5,7 @@ public class YouthCenter {
 
     private String name;
     private String address;
-    private String boss;
+    private String headOfDepartment;
     private String userName;
     private String passWord;
 
@@ -13,12 +13,15 @@ public class YouthCenter {
 
     }
 
-    public YouthCenter(String name, String address, String boss, String userName, String passWord, int phoneNumber) {
+    public YouthCenter(String name, String address, String headOfDepartment, String userName, String passWord, int phoneNumber) {
         this.name = name;
         this.address = address;
-        this.boss = boss;
+        this.headOfDepartment = headOfDepartment;
         this.userName = userName;
         this.passWord = passWord;
+    }
+
+    public YouthCenter(String name, String address, String headOfDepartment, String userName, String passWord) {
     }
 
     public void setName(String name) {
@@ -29,8 +32,7 @@ public class YouthCenter {
         this.address = address;
     }
 
-    public void setBoss(String boss) {
-        this.boss = boss;
+    public void setHeadOfDepartment(String headOfDepartment) { this.headOfDepartment = headOfDepartment;
     }
 
     public void setUserName(String userName) {
@@ -49,8 +51,8 @@ public class YouthCenter {
         return address;
     }
 
-    public String getBoss() {
-        return boss;
+    public String getHeadOfDepartment() {
+        return headOfDepartment;
     }
 
     public String getUserName() {
