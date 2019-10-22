@@ -24,7 +24,10 @@ public class AddYouthCenter {
     String passWord = JOptionPane.showInputDialog("Enter password");
         youthCenter.setPassWord(passWord);
 
+        //Anropar feedbackmetoden
         FeedbackYouthCenterIsCreated(name,address,headOfDepartment,userName,passWord);
+        //Anropar AddCenterToList metoden
+        addYouthCenterToList(name,address,headOfDepartment,userName,passWord);
 }
 
 //Feedback info to user that YouthCenter is created and send an email.
@@ -32,19 +35,23 @@ public void FeedbackYouthCenterIsCreated(String name, String address, String hea
 
    JOptionPane.showMessageDialog(null,
            "You have created a new Youthcenter with " +
-            "\n Name: " +name+
+            "\n Name: "+name+
             "\n Address: "+address+
            "\n Head of department: "+headOfDepartment+
            "\n Username: "+userName+
-           "\n Password: " +passWord);
-
+           "\n Password: "+passWord);
 }
 
 //Sparar fritidsgården i en arraylist
-//private YouthCenter addYouthCenterToList(){
-//    ArrayList<YouthCenter> addYouthCenters = new ArrayList<>();
-//    addYouthCenters.add(new YouthCenter(name, address, headOfDepartment, userName, passWord ));
-//    return new YouthCenter(name, address, headOfDepartment, userName, passWord );
-//}
+    public YouthCenter addYouthCenterToList(String name, String address, String headOfDepartment, String userName, String passWord){
+       ArrayList<YouthCenter> addYouthCenters = new ArrayList<>();
+       addYouthCenters.add(new YouthCenter(name, address, headOfDepartment, userName, passWord ));
+
+        //Anropar SaveToFile från klassen Files
+        //Lagrar arraylistan i en fil.
+return new YouthCenter(name, address, headOfDepartment, userName, passWord );
+    }
+
+
 
 }
