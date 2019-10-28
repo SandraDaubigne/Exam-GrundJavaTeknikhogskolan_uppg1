@@ -10,18 +10,19 @@ public class FileManager {
     //Beroende på vilket argument som skickas med i metodanropet så skickas en ny fil till den mappen som finns med i metodanropet
     //Dettablir således en helt neutral metod som kan användas till:
     //skapa fritidsgårdar, skapa ansökningar, och skapa rapporter.
-    public File makeFileDirectionToFile(String dir){
+    public void makeFileDirection(String dir){
         String path = dir;
         File file = new File("./" +path);
-        return file;
     }
 
-    public void sendArrayListYouthCenterToFile(){
-        //FileOutputStream outFile = new FileOutputStream("./persons/" + person.getFirstName() + ".obj");
+    public void sendArrayListYouthCenterToFile(String dir){
+        
+        String send = dir;
+
+        FileOutputStream outFile = new FileOutputStream("./"+send+"/" + center.getName() + ".obj");
        // ObjectOutputStream objOut = new ObjectOutputStream(outFile);
 
     }
-
 
 
     //Läser från  Fillistan beroende på vad det är för filsökväg osv

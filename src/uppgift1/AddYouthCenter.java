@@ -38,12 +38,14 @@ public void FeedbackYouthCenterIsCreated(String name, String address, String ema
         //Lägg till objektet i arraylisten
        addYouthCenters.add(new YouthCenter(name, address, email, headOfDepartment, userName, passWord ));
 
-       //Skapa filsökväg:
+       //Skapa filsökväg som skickas till makeFileDiretion:
        FileManager fileManager = new FileManager();
        String filedirection = "YouthCenter";
-       fileManager.makeFileDirectionToFile(filedirection);
+       fileManager.makeFileDirection(filedirection);
 
-       //Lägg till ArrayListens objekt som filer
+
+       //Lägg till ArrayListens objekt som filer och då har du redan pathen så kan du anropa nästa metod med den.
+        fileManager.sendArrayListYouthCenterToFile(filedirection);
 
     }
 

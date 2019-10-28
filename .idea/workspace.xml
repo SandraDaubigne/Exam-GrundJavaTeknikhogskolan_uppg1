@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe2a21e-4279-4121-8e0a-f5c354ce277a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uppgift1/Saveable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
@@ -89,7 +88,7 @@
       <workItem from="1571754272693" duration="2766000" />
       <workItem from="1571825771534" duration="600000" />
       <workItem from="1571827950706" duration="59000" />
-      <workItem from="1572247816901" duration="10050000" />
+      <workItem from="1572247816901" duration="13414000" />
     </task>
     <servers />
   </component>

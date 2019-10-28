@@ -21,6 +21,10 @@ public class YouthCenter implements Serializable, Saveable {
         this.passWord = passWord;
     }
 
+    public YouthCenter() {
+
+    }
+
     public void setName(String name) {
         this.name = name;
     }
