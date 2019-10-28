@@ -1,27 +1,24 @@
 package uppgift1;
-//Denna klass representerar objektet fritidsgård och dess attributer
 
-public class YouthCenter {
+import java.io.Serializable;
+
+public class YouthCenter implements Serializable, Saveable {
 
     private String name;
     private String address;
+    private String email;
     private String headOfDepartment;
     private String userName;
     private String passWord;
 
-    public YouthCenter() {
-
-    }
-
-    public YouthCenter(String name, String address, String headOfDepartment, String userName, String passWord, int phoneNumber) {
+    //En konstruktor som tar in alla parametrar
+    public YouthCenter(String name, String address, String email, String headOfDepartment, String userName, String passWord) {
         this.name = name;
         this.address = address;
+        this.email = email;
         this.headOfDepartment = headOfDepartment;
         this.userName = userName;
         this.passWord = passWord;
-    }
-
-    public YouthCenter(String name, String address, String headOfDepartment, String userName, String passWord) {
     }
 
     public void setName(String name) {
@@ -32,8 +29,7 @@ public class YouthCenter {
         this.address = address;
     }
 
-    public void setHeadOfDepartment(String headOfDepartment) { this.headOfDepartment = headOfDepartment;
-    }
+    public void setHeadOfDepartment(String headOfDepartment) { this.headOfDepartment = headOfDepartment; }
 
     public void setUserName(String userName) {
         this.userName = userName;
@@ -43,6 +39,7 @@ public class YouthCenter {
         this.passWord = passWord;
     }
 
+    public void setEmail(String email) { this.email = email; }
     public String getName() {
         return name;
     }
@@ -63,5 +60,6 @@ public class YouthCenter {
         return passWord;
     }
 
+    public String getEmail() { return email; }
 
 }

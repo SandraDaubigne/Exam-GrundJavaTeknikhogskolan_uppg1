@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe2a21e-4279-4121-8e0a-f5c354ce277a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uppgift1/Saveable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/AddYouthCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/AddYouthCenter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -30,6 +31,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Javaprogram från Läraren/Filhantering_kod/spara_till_binarfil" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="uppgift1" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,7 +85,11 @@
       <workItem from="1571464755786" duration="1233000" />
       <workItem from="1571639528462" duration="4864000" />
       <workItem from="1571732309772" duration="4463000" />
-      <workItem from="1571739753886" duration="1401000" />
+      <workItem from="1571739753886" duration="3571000" />
+      <workItem from="1571754272693" duration="2766000" />
+      <workItem from="1571825771534" duration="600000" />
+      <workItem from="1571827950706" duration="59000" />
+      <workItem from="1572247816901" duration="10050000" />
     </task>
     <servers />
   </component>
