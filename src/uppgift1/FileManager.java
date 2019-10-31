@@ -1,24 +1,27 @@
 package uppgift1;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.ArrayList;
 
 //Den här klassen tar hand om allt som har med filer att göra.
 public class FileManager {
 
-    public void saveToFile(ArrayList arr, String dir){
-        //Skapa filsökväg som skickas till makeFileDiretion:
+    public void saveToFile(ArrayList arr, String dir, String user){
+
         String path = dir;
+        String name = user;
+
+        //Skapa filsökväg
         File file = new File("./" +path);
 
-        FileOutputStream outFile = new FileOutputStream("./"+send+"/" + center.getName() + ".obj");
-        // ObjectOutputStream objOut = new ObjectOutputStream(outFile);
+        //Skicka till filen
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("./"+path+"/" + name + ".obj"));
 
+    }
 
-
-
+    public void readFromFile(){
+        //skapar objekt av filerna igen så att de blir läsbara.
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream());
     }
 
 

@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 public class AddYouthCenter {
+    //ligger här för att jag vill inte att en ny arraylist skapas varje gång metoden under körs
+    //lila betyder att det är en klassvariabel
+    ArrayList<YouthCenter> addYouthCenters = new ArrayList<>();
 
     public void addPropertiesNewYouthCenter(){
         String name = JOptionPane.showInputDialog("Enter name");
@@ -13,12 +16,14 @@ public class AddYouthCenter {
         String userName = JOptionPane.showInputDialog("Enter Username");
         String passWord = JOptionPane.showInputDialog("Enter password");
 
-        ArrayList<YouthCenter> addYouthCenters = new ArrayList<>();
         addYouthCenters.add(new YouthCenter(name, address, email, headOfDepartment, userName, passWord ));
 
+        //Skapar en instans av klassen FileManager
         FileManager fileManager = new FileManager();
         String path = "youthcenter";
-        fileManager.saveToFile(addYouthCenters, path);
+
+        //Skickar med arraylist, filsökväg och namn till metoden
+        fileManager.saveToFile(addYouthCenters, path, name);
 
 
 }

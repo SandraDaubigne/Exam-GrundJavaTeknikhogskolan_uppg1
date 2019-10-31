@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <workItem from="1571827950706" duration="59000" />
       <workItem from="1572247816901" duration="13492000" />
       <workItem from="1572508670075" duration="4742000" />
-      <workItem from="1572518713692" duration="147000" />
+      <workItem from="1572518713692" duration="3617000" />
     </task>
     <servers />
   </component>
