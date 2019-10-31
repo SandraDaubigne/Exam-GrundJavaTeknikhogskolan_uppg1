@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/YouthCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Javaprogram från Läraren/Filhantering_kod/spara_till_binarfil" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -88,7 +88,9 @@
       <workItem from="1571754272693" duration="2766000" />
       <workItem from="1571825771534" duration="600000" />
       <workItem from="1571827950706" duration="59000" />
-      <workItem from="1572247816901" duration="13414000" />
+      <workItem from="1572247816901" duration="13492000" />
+      <workItem from="1572508670075" duration="4742000" />
+      <workItem from="1572518713692" duration="147000" />
     </task>
     <servers />
   </component>
