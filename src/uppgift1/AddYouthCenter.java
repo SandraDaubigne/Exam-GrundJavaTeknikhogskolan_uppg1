@@ -1,12 +1,10 @@
 package uppgift1;
 
 import javax.swing.*;
-import java.util.ArrayList;
 
 public class AddYouthCenter {
     //ligger här för att jag vill inte att en ny arraylist skapas varje gång metoden under körs
     //lila betyder att det är en klassvariabel
-    ArrayList<YouthCenter> addYouthCenters = new ArrayList<>();
     FileManager fileManager = new FileManager();
 
 

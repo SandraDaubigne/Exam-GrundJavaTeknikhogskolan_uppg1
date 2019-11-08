@@ -1,16 +1,13 @@
 package uppgift1;
 
 import java.io.*;
-import java.util.ArrayList;
 
-//Den här klassen tar hand om allt som har med filer att göra.
 public class FileManager {
 
     //Läser in till filen
-    public void readObjectToFile(YouthCenter center, String dir){
+    public void readObjectToFile(YouthCenter center, String path){
 
         YouthCenter addCenter = center;
-        String path = dir;
         ObjectOutputStream oos = null;
         try {
             oos = new ObjectOutputStream(new FileOutputStream("./"+path+"/" + addCenter.getName() + ".obj"));
@@ -25,8 +22,9 @@ public class FileManager {
     }
 
 
-    //Hämtar från filen
-    public void readFromFile(){
+    public void readObjectFromFile(){
+
+        //ObjectInputStream ois = new ObjectInputStream(new FileInputStream());
 
 
     }
