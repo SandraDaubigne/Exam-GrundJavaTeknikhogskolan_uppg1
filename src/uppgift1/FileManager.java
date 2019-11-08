@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class FileManager {
 
     //Läser in till filen
-    public void readToFile(YouthCenter center, String dir){
+    public void readObjectToFile(YouthCenter center, String dir){
 
         YouthCenter addCenter = center;
         String path = dir;

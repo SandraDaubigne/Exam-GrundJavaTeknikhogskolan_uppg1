@@ -9,6 +9,7 @@ public class AddYouthCenter {
     ArrayList<YouthCenter> addYouthCenters = new ArrayList<>();
     FileManager fileManager = new FileManager();
 
+
     public void addPropertiesNewYouthCenter(){
         String name = JOptionPane.showInputDialog("Enter name");
         String address = JOptionPane.showInputDialog("Enter address");
@@ -19,22 +20,22 @@ public class AddYouthCenter {
 
         YouthCenter youthCenter = new YouthCenter(name, address, email, headOfDepartment, userName, passWord );
         String path = "youthcenter";
-        fileManager.readToFile(youthCenter, path);
+        fileManager.readObjectToFile(youthCenter, path);
+        FeedbackYouthCenterIsCreated(youthCenter);
 }
 
+public void FeedbackYouthCenterIsCreated(YouthCenter center){
 
-
-
-public void FeedbackYouthCenterIsCreated(String name, String address, String email, String headOfDepartment, String userName, String passWord){
+        YouthCenter youthCenter = center;
 
    JOptionPane.showMessageDialog(null,
            "You have created a new Youthcenter with " +
-            "\n Name: "+name+
-            "\n Address: "+address+
-                   "\n Email: " +email+
-           "\n Head of department: "+headOfDepartment+
-           "\n Username: "+userName+
-           "\n Password: "+passWord);
+            "\n Name: "+youthCenter.getName()+
+            "\n Address: "+youthCenter.getAddress()+
+                   "\n Email: " +youthCenter.getEmail()+
+           "\n Head of department: "+youthCenter.getHeadOfDepartment()+
+           "\n Username: "+youthCenter.getUserName()+
+           "\n Password: "+youthCenter.getPassWord());
 }
 
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe2a21e-4279-4121-8e0a-f5c354ce277a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
@@ -94,7 +93,7 @@
       <workItem from="1572852607316" duration="607000" />
       <workItem from="1572953850608" duration="701000" />
       <workItem from="1573042519945" duration="693000" />
-      <workItem from="1573201041916" duration="3161000" />
+      <workItem from="1573201041916" duration="3737000" />
     </task>
     <servers />
   </component>
@@ -113,27 +112,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/uppgift1/FileManager.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/uppgift1/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaUppgift1$Main.ic" NAME="Main Coverage Results" MODIFIED="1571412435524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
