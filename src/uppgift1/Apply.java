@@ -6,19 +6,23 @@ public class Apply implements Serializable {
 
   private String youthcenter;
   private String use;
+  private int ammount;
   private String name;
   private String phonenumber;
   private String address;
   private String email;
 
-    public Apply(String youthcenter, String use, String name, String phonenumber, String address, String email) {
+    public Apply(String youthcenter, String use,  int ammount , String name, String phonenumber, String address, String email) {
         this.youthcenter = youthcenter;
         this.use = use;
+        this.ammount = ammount;
         this.name = name;
         this.phonenumber = phonenumber;
         this.address = address;
         this.email = email;
     }
+
+
 
     public String getYouthcenter() {
         return youthcenter;
@@ -26,6 +30,10 @@ public class Apply implements Serializable {
 
     public String getUse() {
         return use;
+    }
+
+    public int getAmmount() {
+        return ammount;
     }
 
     public String getName() {
@@ -50,6 +58,10 @@ public class Apply implements Serializable {
 
     public void setUse(String use) {
         this.use = use;
+    }
+
+    public int setAmmount() {
+        this.ammount =ammount;
     }
 
     public void setName(String name) {
