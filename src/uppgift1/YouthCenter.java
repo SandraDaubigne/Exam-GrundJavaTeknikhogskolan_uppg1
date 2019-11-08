@@ -2,7 +2,7 @@ package uppgift1;
 
 import java.io.Serializable;
 
-public class YouthCenter implements Serializable, Saveable {
+public class YouthCenter implements Serializable {
 
     private String name;
     private String address;
