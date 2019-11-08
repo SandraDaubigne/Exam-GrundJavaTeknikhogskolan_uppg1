@@ -7,6 +7,7 @@ public class AddYouthCenter {
     //ligger här för att jag vill inte att en ny arraylist skapas varje gång metoden under körs
     //lila betyder att det är en klassvariabel
     ArrayList<YouthCenter> addYouthCenters = new ArrayList<>();
+    FileManager fileManager = new FileManager();
 
     public void addPropertiesNewYouthCenter(){
         String name = JOptionPane.showInputDialog("Enter name");
@@ -16,17 +17,13 @@ public class AddYouthCenter {
         String userName = JOptionPane.showInputDialog("Enter Username");
         String passWord = JOptionPane.showInputDialog("Enter password");
 
-        addYouthCenters.add(new YouthCenter(name, address, email, headOfDepartment, userName, passWord ));
-
-        //Skapar en instans av klassen FileManager
-        FileManager fileManager = new FileManager();
+        YouthCenter youthCenter = new YouthCenter(name, address, email, headOfDepartment, userName, passWord );
         String path = "youthcenter";
-
-        //Skickar med arraylist, filsökväg och namn till metoden
-        fileManager.saveToFile(addYouthCenters, path, name);
-
-
+        fileManager.readToFile(youthCenter, path);
 }
+
+
+
 
 public void FeedbackYouthCenterIsCreated(String name, String address, String email, String headOfDepartment, String userName, String passWord){
 

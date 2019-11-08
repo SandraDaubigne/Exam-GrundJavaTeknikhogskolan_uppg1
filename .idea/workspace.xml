@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Javaprogram från Läraren/Filhantering_kod/spara_till_binarfil" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -89,7 +90,11 @@
       <workItem from="1571827950706" duration="59000" />
       <workItem from="1572247816901" duration="13492000" />
       <workItem from="1572508670075" duration="4742000" />
-      <workItem from="1572518713692" duration="3617000" />
+      <workItem from="1572518713692" duration="4910000" />
+      <workItem from="1572852607316" duration="607000" />
+      <workItem from="1572953850608" duration="701000" />
+      <workItem from="1573042519945" duration="693000" />
+      <workItem from="1573201041916" duration="3161000" />
     </task>
     <servers />
   </component>
@@ -108,6 +113,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uppgift1/FileManager.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/uppgift1/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaUppgift1$Main.ic" NAME="Main Coverage Results" MODIFIED="1571412435524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -6,17 +6,12 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        //skapa klassobjektet här
-AddYouthCenter addYouthCenter = new AddYouthCenter();
 
-//Vill spara objektet i en variabel från metodanropeet
+AddYouthCenter addYouthCenter = new AddYouthCenter();
 addYouthCenter.addPropertiesNewYouthCenter();
 
-//Anropa metoden lägga till fritidsgård
 
 
-        //FeedbackYouthCenterIsCreated(name, address, email, headOfDepartment, userName, passWord);
-        //addYouthCenterToArrayList(name, address, email, headOfDepartment, userName, passWord);
 
 
 
