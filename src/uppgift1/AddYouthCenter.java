@@ -2,6 +2,7 @@ package uppgift1;
 
 import javax.swing.*;
 
+
 public class AddYouthCenter {
     //ligger här för att jag vill inte att en ny arraylist skapas varje gång metoden under körs
     //lila betyder att det är en klassvariabel
@@ -17,8 +18,14 @@ public class AddYouthCenter {
         String passWord = JOptionPane.showInputDialog("Enter password");
 
         YouthCenter youthCenter = new YouthCenter(name, address, email, headOfDepartment, userName, passWord );
+
         String path = "youthcenter";
-        fileManager.readObjectToFile(youthCenter, path);
+        String user = name;
+
+
+        //Skickar med objektet filsökvägen och namnet som blir filens namn
+        // På så vis kan readObjectToFile bli mera neutral
+        fileManager.readObjectToFile(youthCenter, path, user);
         FeedbackYouthCenterIsCreated(youthCenter);
 }
 

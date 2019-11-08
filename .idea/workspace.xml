@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe2a21e-4279-4121-8e0a-f5c354ce277a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/uppgift1/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/AddYouthCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/AddYouthCenter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaUppgift1/uppgift1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/AddYouthCenter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uppgift1/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youthcenter/csSDas.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uppgift1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uppgift1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/youthcenter/Lindasfritisdgård.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/youthcenter/SandrasFritidsgård.obj" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,7 +100,7 @@
       <workItem from="1572852607316" duration="607000" />
       <workItem from="1572953850608" duration="701000" />
       <workItem from="1573042519945" duration="693000" />
-      <workItem from="1573201041916" duration="6431000" />
+      <workItem from="1573201041916" duration="17208000" />
     </task>
     <servers />
   </component>

@@ -1,20 +1,36 @@
 package uppgift1;
 
 
+import javax.swing.*;
+import java.io.File;
 import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
 
-AddYouthCenter addYouthCenter = new AddYouthCenter();
-addYouthCenter.addPropertiesNewYouthCenter();
+Login login = new Login();
+//Meny
+
+        int meny = Integer.parseInt(JOptionPane.showInputDialog("Vill du (1) Logga in (2) ansöka"));
+
+        switch (meny){
+            case 1:
+                JOptionPane.showMessageDialog(null,
+                        "Du har valt att logga in");
+                login.Login();
+
+                break;
+            case 2:
+                JOptionPane.showMessageDialog(null,
+                        "Du har valt att ansöka, tryck på ok för att fortsätta");
+
+                break;
+
+        }
 
 
-
-
-
-
+//fileManager.readObjectFromFile(youthcenter,);
 
 
         //Switcmenyn
@@ -23,19 +39,8 @@ addYouthCenter.addPropertiesNewYouthCenter();
             //Ansöka
 
         //Inloggad kan välja
-        //Titta på ansökningar
-            //bevilja
-
-        //Titta på rapporter
-        //Lägga till fritidsgård
-            //Fyll i namn osv....
-
-
-        //i menyn "lägga till fritidsgård" körs dessa metoder sekvensiellt
-        //ropa på metoden addPropertiesNewYouthCenter som returnerar ett objekt
-        //Lägg returvärdet i  FeedbackYouthCenterIsCreated här
-        //lägg objektet i addYouthCenterToArrayList här
-
+        //Lägg till frididsgård
+            //bevilja ansökningar
 
 
     }
