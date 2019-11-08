@@ -60,7 +60,7 @@ public class Apply implements Serializable {
         this.use = use;
     }
 
-    public int setAmmount() {
+    public void setAmmount(int ammount) {
         this.ammount =ammount;
     }
 

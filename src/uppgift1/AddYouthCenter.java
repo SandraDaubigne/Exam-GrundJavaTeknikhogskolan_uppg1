@@ -17,15 +17,14 @@ public class AddYouthCenter {
         String userName = JOptionPane.showInputDialog("Enter Username");
         String passWord = JOptionPane.showInputDialog("Enter password");
 
-        YouthCenter youthCenter = new YouthCenter(name, address, email, headOfDepartment, userName, passWord );
 
+        YouthCenter youthCenter = new YouthCenter(name, address, email, headOfDepartment, userName, passWord );
         String path = "youthcenter";
         String user = name;
-
-
-        //Skickar med objektet filsökvägen och namnet som blir filens namn
-        // På så vis kan readObjectToFile bli mera neutral
-        fileManager.readObjectToFile(youthCenter, path, user);
+        String[] send = {String.valueOf(youthCenter),path, name};
+        //gjorde att denna metod skickar med en array till readTo Object så att
+        // te apply kan anvnda samma metod sen med . 
+        fileManager.readObjectToFile(send);
         FeedbackYouthCenterIsCreated(youthCenter);
 }
 

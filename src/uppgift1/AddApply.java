@@ -3,6 +3,7 @@ package uppgift1;
 import javax.swing.*;
 
 public class AddApply {
+    FileManager fileManager = new FileManager();
 
     public void addPropertiesAddApply(){
         String  youthcenter = JOptionPane.showInputDialog("Vilken fritidsgård vill du söka till?");
@@ -14,5 +15,10 @@ public class AddApply {
         String email = JOptionPane.showInputDialog("Enter password");
 
         Apply apply = new Apply(youthcenter,use,ammount,name,phonenumber,address,email);
+        String path = "apply";
+        String user = name;
+        //fileManager.readObjectToFile();
+
+
     }
 }

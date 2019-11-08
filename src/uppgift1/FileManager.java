@@ -5,19 +5,16 @@ import java.io.*;
 public class FileManager {
 
     //Läser in till filen
-    public void readObjectToFile(YouthCenter center, String dir, String name){
+    public void readObjectToFile(String[] send){
 
-        YouthCenter addCenter = center;
-        String path = dir;
-        String user = name;
         ObjectOutputStream oos = null;
         try {
-            oos = new ObjectOutputStream(new FileOutputStream("./"+path+"/" + user + ".obj"));
+            oos = new ObjectOutputStream(new FileOutputStream("./"+send[1]+"/" + send[2] + ".obj"));
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
         try {
-            oos.writeObject(addCenter);
+            oos.writeObject(send[0]);
         } catch (IOException e) {
             System.out.println(e.getMessage());
         }
