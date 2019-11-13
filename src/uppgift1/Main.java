@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
 Login login = new Login();
+AddApply addApply = new AddApply();
 //Meny
 
         int meny = Integer.parseInt(JOptionPane.showInputDialog("Vill du (1) Logga in (2) ansöka"));
@@ -24,6 +25,7 @@ Login login = new Login();
             case 2:
                 JOptionPane.showMessageDialog(null,
                         "Du har valt att ansöka, tryck på ok för att fortsätta");
+                addApply.addPropertiesAddApply();
 
                 break;
 

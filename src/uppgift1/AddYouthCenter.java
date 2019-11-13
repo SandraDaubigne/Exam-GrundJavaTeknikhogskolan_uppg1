@@ -10,36 +10,35 @@ public class AddYouthCenter {
 
 
     public void addPropertiesNewYouthCenter(){
-        String name = JOptionPane.showInputDialog("Enter name");
-        String address = JOptionPane.showInputDialog("Enter address");
-        String email = JOptionPane.showInputDialog("Enter email");
-        String headOfDepartment = JOptionPane.showInputDialog("Enter head of Department");
-        String userName = JOptionPane.showInputDialog("Enter Username");
-        String passWord = JOptionPane.showInputDialog("Enter password");
+        String youthCenter = JOptionPane.showInputDialog("Vad heter fritidsgården du vill lägga till?");
+        String address = JOptionPane.showInputDialog("Vad är det för address dit? ");
+        String email = JOptionPane.showInputDialog("Vilke email ska vara kopplad till denna fritidsgård?");
+        String phone = JOptionPane.showInputDialog("Vad är det för telefonnummer till fritidsgården?");
+        String headOfDepartment = JOptionPane.showInputDialog("Vem kommer vara ansvarig?");
+        String userName = JOptionPane.showInputDialog("Välj ett användanamn");
+        String passWord = JOptionPane.showInputDialog("Välj ett lösenord");
 
-
-        YouthCenter youthCenter = new YouthCenter(name, address, email, headOfDepartment, userName, passWord );
+        YouthCenter addYouthCenter = new YouthCenter(youthCenter, address, email, phone, headOfDepartment, userName, passWord );
         String path = "youthcenter";
-        String user = name;
-        String[] send = {String.valueOf(youthCenter),path, name};
+        String user = youthCenter;
+        String[] send = {String.valueOf(addYouthCenter),path, user};
+
         //gjorde att denna metod skickar med en array till readTo Object så att
-        // te apply kan anvnda samma metod sen med . 
+        // tex apply kan använda samma metod sen med.
         fileManager.readObjectToFile(send);
-        FeedbackYouthCenterIsCreated(youthCenter);
+        FeedbackYouthCenterIsCreated(addYouthCenter);
 }
 
 public void FeedbackYouthCenterIsCreated(YouthCenter center){
 
-        YouthCenter youthCenter = center;
-
    JOptionPane.showMessageDialog(null,
-           "You have created a new Youthcenter with " +
-            "\n Name: "+youthCenter.getName()+
-            "\n Address: "+youthCenter.getAddress()+
-                   "\n Email: " +youthCenter.getEmail()+
-           "\n Head of department: "+youthCenter.getHeadOfDepartment()+
-           "\n Username: "+youthCenter.getUserName()+
-           "\n Password: "+youthCenter.getPassWord());
+           "Du har skapat en fritidsgård med följande uppgifter: " +
+            "\n Namn: "+center.getYouthCenter()+
+            "\n Address: "+center.getAddress()+
+                   "\n Email: " +center.getEmail()+
+           "\n Ansvarig: "+center.getHeadOfDepartment()+
+           "\n Användarnamn: "+center.getUserName()+
+           "\n Lösenord: "+center.getPassWord());
 }
 
 

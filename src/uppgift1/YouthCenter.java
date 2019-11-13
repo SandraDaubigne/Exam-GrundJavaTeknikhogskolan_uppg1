@@ -4,18 +4,20 @@ import java.io.Serializable;
 
 public class YouthCenter implements Serializable {
 
-    private String name;
-    private String address;
-    private String email;
+    protected String youthCenter;
+    protected String address;
+    protected String email;
+    protected String phone;
     private String headOfDepartment;
     private String userName;
     private String passWord;
 
     //En konstruktor som tar in alla parametrar
-    public YouthCenter(String name, String address, String email, String headOfDepartment, String userName, String passWord) {
-        this.name = name;
+    public YouthCenter(String youthCenter, String address, String email, String phone, String headOfDepartment, String userName, String passWord) {
+        this.youthCenter = youthCenter;
         this.address = address;
         this.email = email;
+        this.phone = phone;
         this.headOfDepartment = headOfDepartment;
         this.userName = userName;
         this.passWord = passWord;
@@ -25,13 +27,17 @@ public class YouthCenter implements Serializable {
 
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setYouthCenter(String name) {
+        this.youthCenter = name;
     }
 
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public void setEmail(String email) { this.email = email; }
+
+    public void setPhone(String phone) { this.phone = phone; }
 
     public void setHeadOfDepartment(String headOfDepartment) { this.headOfDepartment = headOfDepartment; }
 
@@ -43,14 +49,18 @@ public class YouthCenter implements Serializable {
         this.passWord = passWord;
     }
 
-    public void setEmail(String email) { this.email = email; }
-    public String getName() {
-        return name;
+
+    public String getYouthCenter() {
+        return youthCenter;
     }
 
     public String getAddress() {
         return address;
     }
+
+    public String getEmail() { return email; }
+
+    public String getPhone() { return phone; }
 
     public String getHeadOfDepartment() {
         return headOfDepartment;
@@ -64,6 +74,6 @@ public class YouthCenter implements Serializable {
         return passWord;
     }
 
-    public String getEmail() { return email; }
+
 
 }
