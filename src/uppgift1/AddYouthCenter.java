@@ -7,7 +7,8 @@ public class AddYouthCenter {
     //ligger här för att jag vill inte att en ny arraylist skapas varje gång metoden under körs
     //lila betyder att det är en klassvariabel
     FileManager fileManager = new FileManager();
-
+    // Kan göra ett interface som tvingar klassen att lägga till addProperties
+    // metoden heter så addProperties i både AddApply klassen OCH i AddYouthventer klassen
 
     public void addPropertiesNewYouthCenter(){
         String youthCenter = JOptionPane.showInputDialog("Vad heter fritidsgården du vill lägga till?");
@@ -19,12 +20,12 @@ public class AddYouthCenter {
         String passWord = JOptionPane.showInputDialog("Välj ett lösenord");
 
         YouthCenter addYouthCenter = new YouthCenter(youthCenter, address, email, phone, headOfDepartment, userName, passWord );
-        String path = "youthcenter";
-        String user = youthCenter;
-        String[] send = {String.valueOf(addYouthCenter),path, user};
+
+        String[] send = {String.valueOf(addYouthCenter),"youthcenter", youthCenter};
 
         //gjorde att denna metod skickar med en array till readTo Object så att
         // tex apply kan använda samma metod sen med.
+
         fileManager.readObjectToFile(send);
         FeedbackYouthCenterIsCreated(addYouthCenter);
 }

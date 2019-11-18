@@ -11,6 +11,7 @@ public class Main {
 
 Login login = new Login();
 AddApply addApply = new AddApply();
+
 //Meny
 
         int meny = Integer.parseInt(JOptionPane.showInputDialog("Vill du (1) Logga in (2) ansöka"));

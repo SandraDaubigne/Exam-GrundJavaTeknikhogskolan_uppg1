@@ -23,9 +23,7 @@ public class YouthCenter implements Serializable {
         this.passWord = passWord;
     }
 
-    public YouthCenter() {
-
-    }
+    public YouthCenter() { }
 
     public void setYouthCenter(String name) {
         this.youthCenter = name;
@@ -73,7 +71,5 @@ public class YouthCenter implements Serializable {
     public String getPassWord() {
         return passWord;
     }
-
-
 
 }
