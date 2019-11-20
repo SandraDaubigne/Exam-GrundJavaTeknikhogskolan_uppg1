@@ -12,7 +12,6 @@ public class YouthCenter implements Serializable {
     private String userName;
     private String passWord;
 
-    //En konstruktor som tar in alla parametrar
     public YouthCenter(String youthCenter, String address, String email, String phone, String headOfDepartment, String userName, String passWord) {
         this.youthCenter = youthCenter;
         this.address = address;

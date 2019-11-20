@@ -20,22 +20,15 @@ public class FileManager {
         }
     }
 
-
     public void readObjectFromFile(String path, String name){
 
-        //en arraylist läser in de uppackade objekten sedan och så kan man orientera sig genom dess index i menyn.
-        //Så hämtar alltid arraylisten från filer och de nya som kommit in är med där också.
-
         try {
-
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream("./"+path+"/" + name + ".obj"));
              ois.readObject();
             System.out.println(ois);
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }
-
-
 
     }
 
