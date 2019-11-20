@@ -3,8 +3,6 @@ package uppgift1;
 import javax.swing.*;
 
 public class AddApply {
-    FileManager fileManager = new FileManager();
-
 
     public void addPropertiesAddApply(){
         String  youthCenter = JOptionPane.showInputDialog("Vilken fritidsgård vill du söka till?");
@@ -18,7 +16,7 @@ public class AddApply {
         Apply apply = new Apply(youthCenter, address, email, phone, name, use, amount);
 
         String[] send = {String.valueOf(apply),"Apply", youthCenter};
-        fileManager.readObjectToFile(send);
+        FileManager.readObjectToFile(send);
         FeedbackYouthCenterIsCreated(apply);
     }
 

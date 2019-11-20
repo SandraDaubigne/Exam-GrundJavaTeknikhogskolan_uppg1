@@ -4,9 +4,6 @@ import javax.swing.*;
 
 public class Login {
 
-    AddYouthCenter addYouthCenter = new AddYouthCenter();
-    FileManager fileManager = new FileManager();
-
     public boolean LoggedIn(){
         int password = Integer.parseInt(JOptionPane.showInputDialog("Ange ditt lösenord, fyra siffor"));
 

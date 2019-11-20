@@ -2,15 +2,12 @@ package uppgift1;
 
 import javax.swing.*;
 
-
 public class AddYouthCenter {
-    FileManager fileManager = new FileManager();
-
 
     public void addPropertiesNewYouthCenter(){
         String youthCenter = JOptionPane.showInputDialog("Vad heter fritidsgården du vill lägga till?");
         String address = JOptionPane.showInputDialog("Vad är det för address dit? ");
-        String email = JOptionPane.showInputDialog("Vilke email ska vara kopplad till denna fritidsgård?");
+        String email = JOptionPane.showInputDialog("Vilken email ska vara kopplad till denna fritidsgård?");
         String phone = JOptionPane.showInputDialog("Vad är det för telefonnummer till fritidsgården?");
         String headOfDepartment = JOptionPane.showInputDialog("Vem kommer vara ansvarig?");
         String userName = JOptionPane.showInputDialog("Välj ett användanamn");
@@ -20,7 +17,7 @@ public class AddYouthCenter {
 
         String[] send = {String.valueOf(addYouthCenter),"youthcenter", youthCenter};
 
-        fileManager.readObjectToFile(send);
+        FileManager.readObjectToFile(send);
         FeedbackYouthCenterIsCreated(addYouthCenter);
 }
 

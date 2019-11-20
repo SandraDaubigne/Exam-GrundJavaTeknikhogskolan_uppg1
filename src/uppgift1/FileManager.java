@@ -3,9 +3,8 @@ package uppgift1;
 import java.io.*;
 
 public class FileManager {
-
-    //Läser in till filen
-    public void readObjectToFile(String[] send){
+    
+    public static void readObjectToFile(String[] send){
 
         ObjectOutputStream oos = null;
         try {
@@ -20,7 +19,7 @@ public class FileManager {
         }
     }
 
-    public void readObjectFromFile(String path, String name){
+    public static void readObjectFromFile(String path, String name){
 
         try {
             ObjectInputStream ois = new ObjectInputStream(new FileInputStream("./"+path+"/" + name + ".obj"));
